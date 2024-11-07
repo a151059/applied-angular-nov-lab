@@ -33,3 +33,4 @@ export type BankStateApiTransactionResponse = {
 export type BankTransactionListModel = BankTransaction & {
   isPending: boolean;
 };
+

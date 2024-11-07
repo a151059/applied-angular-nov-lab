@@ -9,7 +9,9 @@ import { FeatureDirective } from '@shared';
   standalone: true,
   template: `
     <app-nav-bar />
-    <div *feature="'home-page-content'">This is something I'm working on.</div>
+    <div *feature="'home-page-content'" class="text-2xl font-extralight tracking-wide pl-8">
+      Welcome to Alexandria's Angular Lab
+    </div>
     <main class="container mx-auto">
       <router-outlet />
     </main>

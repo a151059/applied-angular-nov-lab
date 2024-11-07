@@ -8,7 +8,7 @@ import { FeatureDirective } from '@shared';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [RouterLink, FeatureDirective],
   template: `
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-200">
       <div class="flex-1">
         <a class="btn btn-ghost text-xl" routerLink="/">Applied Angular</a>
       </div>
@@ -17,7 +17,8 @@ import { FeatureDirective } from '@shared';
           <li *feature="'wip'"><a routerLink="demos">Demos</a></li>
           <li><a routerLink="banking">Banking</a></li>
           <li><a routerLink="counter">Counter</a></li>
-        </ul>
+          <li><a routerLink="books">Books</a></li>
+          </ul>
       </div>
     </div>
   `,
